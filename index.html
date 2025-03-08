@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="" IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tauseef Portfolio </title>
+
+    <!--box icons-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!--icons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--custom css-->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Tauseef</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="#home" style="--i:0;" class="active1">Home</a>
+            <a href="#about" style="--i:1;" class="active2">About</a>
+            <a href="#qualification" style="--i:2;" class="active3">Qualification</a>
+            <a href="#skills" style="--i:3;" class="active4">Skills</a>
+            <a href="#services" style="--i:4;" class="active5">Services</a>
+            <a href="#portfolio" style="--i:5;" class="active6">Projects</a>
+            <a href="#contact" style="--i:6;" class="active7">Contact</a>
+            <hr />
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me </h3>
+            <h1>Tauseef Askari</h1>
+            <h3>Software <span> Engineer</span></h3>
+            <p>Hi, I'm a UI/UX Designer with a passion for creating seamless and user-friendly digital
+                experiences. With a background in frontend development, I specialize in designing intuitive interfaces
+                that not only look great but also function flawlessly.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/tauseef-askari/" target="_blank"><i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="https://github.com/tauseef-110" target="_blank"><i class="bx bxl-github"></i> </a>
+            </div>
+            <a href="assets/Tauseef_Askari_Resume.pdf" class="btn" download>Download Resume</a>
+
+        </div>
+
+        <div class="home-img">
+            <img src="assets/Portfolio_image.jpg" alt="">
+        </div>
+    </section>
+
+    <!--about section -->
+    <section class="about" id="about">
+
+        <div class="abount-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <div class="about-img">
+                <img src="assets/Portfolio_image.jpg" alt="">
+            </div>
+        </div>
+        <div class="about-pb">
+            <p>Hi, I'm Tauseef Askari, a UI/UX Designer with a passion for creating seamless and user-friendly digital
+                experiences. Currently, I'm pursuing my B.Tech degree at Ambalika Institute of Management and
+                technology, where I've built a strong
+                foundation in design principles, frontend development, and user-centered design.
+                I specialize in crafting intuitive interfaces that not only look great but also function flawlessly. My
+                technical skills in HTML, CSS, and JavaScript allow me to bridge the gap between design and development,
+                ensuring smooth user interactions.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+    </section>
+
+    <!--Qualification-->
+    <section class="qualification section" id="qualification">
+        <h2 class="section_title">Qualification</h2>
+        <span class="section_subtitle">My Personal Journey</span>
+
+        <div class="qualification_container container">
+            <div class="qualification_tabs">
+                <div class="qualification_button button--flex qualification_active" data-target="#education">
+                    <i class="uil uil-graduation-cap qualification_icon"></i>
+                    Education
+                </div>
+
+                <div class="qualification_button button--flex" data-target="#work">
+                    <i class="uil uil-briefcase-alt qualification_icon"></i>
+                    Work
+                </div>
+            </div>
+
+            <div class="qualification_sections">
+                <div class="qualification_content qualification_active" data-content id="education">
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">Computer Science and Engineering - B.TECH</h3>
+                            <span class="qualification_subtitle">Ambalika Institute of Management and
+                                technology , Lucknow</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2021 - 2025
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+
+                    <div class="qualification_data">
+                        <div class="q_space"></div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_title">Class XII</h3>
+                            <span class="qualification_subtitle">Divine Public School , AmbedkarNagar</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2020 - 2021
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">Class - X</h3>
+                            <span class="qualification_subtitle">Divine Public School , AmbedkarNagar</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2018 - 2019
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <!--<span class="qualification_line"></span>-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qualification_content" data-content id="work">
+                    <div class="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <!--<span class="qualification_line"></span>-->
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_title">Java Training Intern</h3>
+                            <span class="qualification_subtitle">Analyze Infotech, Lucknow</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                August 2024 - January-2025
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SKILLS SECTION-->
+    <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <span class="section_subtitle">My Technical level</span>
+        <div class="skills_container container grid">
+            <div>
+                <!--skills 1-->
+                <div class="skills_content skills_open">
+                    <div class="skills_header">
+                        <i class="uil uil-brackets-curly skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Frontend Development</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">HTML</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_html"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">CSS</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_css"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">JavaScript</h3>
+                                <span class="skills_number">60%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_js"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--skills 2-->
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-server-network skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Backend Development</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Java</h3>
+                                <span class="skills_number">60%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_python"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <!--skills 3-->
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-brackets-curly skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Languages</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">SQL</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_sql"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <!--skills 4-->
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-visual-studio skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Developer Tools</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Visual Studio Code</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_vscode"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <!--skills 5-->
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-database skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Databases</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <!-- <div class="skills_titles">
+                                <h3 class="skills_name">Microsoft SQL</h3>
+                                <span class="skills_number">80%</span>
+                            </div> -->
+                            <!-- <div class="skills_bar">
+                                <span class="skills_percentage skills_msql"></span>
+                            </div> -->
+
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">MySQL</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_mysql"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--services section -->
+    <section class="services" id="services">
+        <h2 class="section_title">Services</h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>"I build modern, responsive, and visually appealing websites that provide seamless user experiences.
+                    I ensure websites are functional, fast, and user-friendly."
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bxs-paint"></i>
+                <h3>UI/UX Design</h3>
+                <p>Designing modern, aesthetically pleasing interfaces
+                    Creating visually consistent and engaging UI components.
+                    Improving designs based on user feedback
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bxs-pen"></i>
+                <h3>SEO Optimization</h3>
+                <p>"I help businesses and individuals optimize their websites for search engines, improving rankings and
+                    traffic. With a blend of SEO strategies and frontend expertise."
+
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="section_title">Projects</h2>
+        <span class="section_subtitle">Most Recent Work</span>
+
+        <div class="portfolio_container">
+            <div class="portfolio_all">
+
+                <div class="portfolio_content">
+                    <img src="assets/Rapid_Mart.jpg" alt="Rapid mart manager" class="portfolio_img">
+
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Rapid Mart Manager </h3>
+                        <p class="portfolio_description">A Java-based store management system for efficient billing,
+                            sales tracking, and inventory management.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="portfolio_content">
+                    <img src="assets/currency-converter.jpg" alt="currency converter" class="portfolio_img">
+
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Currency converter</h3>
+                        <p class="portfolio_description">A responsive web application that allows users to convert
+                            currencies in real-time with an intuitive interface.
+                        </p>
+                        <a href="https://tauseefaskari.github.io/Currency-Converter/" target="_blank" class="button button-flex button-small portfolio_button">
+                            Demo
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="portfolio_content">
+                    <img src="assets/qr_img.png" alt="QR  Website" class="portfolio_img">
+
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">QR Code Generation Website</h3>
+                        <p class="portfolio_description">Website to convert personal Information into QR codes
+                            for Securing Data.
+                        </p>
+                        <a href="https://tauseefaskari.github.io/QR-code-Generator/" target="_blank"
+                            class="button button-flex button-small portfolio_button">
+                            Demo
+                            <i class="uil uil-arrow-right button_icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact section-->
+    <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+        <span class="section_subtitle">Get in touch</span>
+
+        <div class="contact_container container grid">
+            <div>
+                <div class="contact_information">
+                    <i class="uil uil-envelope contact_icon"></i>
+
+                    <div>
+                        <h3 class="contact_title">Email Me</h3>
+                        <span class="contact_subtitle">tauseefaskari110@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <form action="" class="contact_form grid">
+                <div class="contact_inputs grid">
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Name</label>
+                        <input type="text" class="contact_input">
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Email</label>
+                        <input type="email" class="contact_input">
+                    </div>
+                </div>
+                <div class="contact_content">
+                    <label for="" class="contact_label">Project</label>
+                    <input type="text" class="contact_input">
+                </div>
+                <div class="contact_content">
+                    <label for="" class="contact_label">Message</label>
+                    <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                </div>
+
+                <div>
+                    <a href="" class="btn" id="buttun_td">
+                        Send Message
+                        <i class="uil uil-message button_icon"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--footer section-->
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/tauseef-askari/"><i class="bx bxl-linkedin"></i> </a>
+            <a href="https://github.com/tauseef-110"><i class="bx bxl-github"></i> </a>
+        </div>
+        <h6 class="footer_bar">@ta all rights reserved</h6>
+    </footer>
+
+    <!--custom js-->
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
